@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 60%;
+  }
+  .main-content {
+    width: 80%;
+  }
+  .text {
+    padding: 5rem;
+    width: 115%;
+  }
+  .text-cont {
+    top: 40%;
+    left: 63%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    background-image: url(../images/mobile/image-hero.jpg);
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+  .u-flex-rev {
+    flex-direction: row;
+  }
+  .wrapper {
+    width: 80%;
+  }
+  .logo {
+    margin-bottom: 2rem;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .text-cont {
+    position: unset;
+  }
+  .container img {
+    width: -webkit-fill-available;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .creations {
+    margin-bottom: 3rem;
+  }
+  .none {
+    display: flex;
+  }
+  .hide {
+    display: none;
+  }
+  .icons {
+    text-align: center;
+  }
+  .left {
+    margin-bottom: 5rem;
+  }
+  .center {
+    text-align: center;
+  }
+  .text {
+    padding: 5rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .main-content h1 {
+    font-size: 4rem;
+  }
+  .none {
+    display: grid;
+  }
+  .hide-2 {
+    display: none;
+  }
+  .creations img {
+    width: -webkit-fill-available;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+  .wrapper {
+    width: 85%;
+  }
+}
